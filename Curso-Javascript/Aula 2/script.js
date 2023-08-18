@@ -1,13 +1,19 @@
 // tipos primitivos
 
 // boolean
-var v0uf = false;
-console.log(typeof(v0uf))
+// var v0uf = false;
+// console.log(typeof(v0uf))
 
-// number
-var numeroQualquer = 1;
-console.log(typeof(numeroQualquer))
+// // number
+// var numeroQualquer = 1;
+// console.log(typeof(numeroQualquer))
 
-//string 
-var nome = "Gabriel"
-console.log(typeof(nome))
+// //string 
+// var nome = "Gabriel"
+// console.log(typeof(nome))
+
+//como declarar
+
+var variavel = 'gabriel';
+variavel = "reliquias"
+console.log(variavel)
