@@ -13,7 +13,13 @@
 // console.log(typeof(nome))
 
 //como declarar
+// var variavel = 'gabriel';
+// variavel = "reliquias"
+// console.log(variavel)
 
-var variavel = 'gabriel';
-variavel = "reliquias"
-console.log(variavel)
+// let variavel2 = '';
+// variavel2 = 'reliquias'
+// console.log(variavel2)
+
+const constante = 'ana';
+console.log(constante)
