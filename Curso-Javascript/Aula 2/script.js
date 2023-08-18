@@ -21,5 +21,15 @@
 // variavel2 = 'reliquias'
 // console.log(variavel2)
 
-const constante = 'ana';
-console.log(constante)
+// const constante = 'ana';
+// console.log(constante)
+
+var escopoGlobal = 'Global'
+console.log(escopoGlobal)
+
+function escopoLocal(){
+    let escopoLocalinterno = 'local'
+    console.log(escopoLocalinterno)
+}
+
+escopoLocal()
