@@ -24,12 +24,25 @@
 // const constante = 'ana';
 // console.log(constante)
 
-var escopoGlobal = 'Global'
-console.log(escopoGlobal)
+// var escopoGlobal = 'Global'
+// console.log(escopoGlobal)
 
-function escopoLocal(){
-    let escopoLocalinterno = 'local'
-    console.log(escopoLocalinterno)
-}
+// function escopoLocal(){
+//     let escopoLocalinterno = 'local'
+//     console.log(escopoLocalinterno)
+// }
 
-escopoLocal()
+// escopoLocal()
+
+//Atribuição
+
+// var atribuicao = 'gabriel'
+
+// //Comparação
+// var comparacao = '0' == 2;
+// console.log(comparacao)
+
+//Comparação identica
+
+var comparacaoIdentica = '0' === '0';
+console.log(comparacaoIdentica)
