@@ -16,9 +16,9 @@ let array = ['string', 1, true, ["array1"], ["array2"], ["array3"], ["array4"]];
 // array.pop();
 // console.log(array);
 
-//Shift
-// array.shift();
-// console.log(array);
+// Shift
+array.shift();
+console.log(array);
 
 //Unshift
 // array.unshift('novo item no inicio');
@@ -35,12 +35,12 @@ let array = ['string', 1, true, ["array1"], ["array2"], ["array3"], ["array4"]];
 // let novoArray = array.slice(0, 3);
 // console.log(novoArray)
 
-let object = { string: 'string', number: 1, Boolean: true, array: ["array"], objectInterno: {objectInterno: 'Objeto Interno'}};
+// let object = { string: 'string', number: 1, Boolean: true, array: ["array"], objectInterno: {objectInterno: 'Objeto Interno'}};
 
 // console.log(object.Boolean);
 
 // var string = object.string;
 // console.log(string)
 
-var {string, Boolean, objectInterno} = object;
-console.log(string, Boolean, objectInterno);
+// var {string, Boolean, objectInterno} = object;
+// console.log(string, Boolean, objectInterno);
