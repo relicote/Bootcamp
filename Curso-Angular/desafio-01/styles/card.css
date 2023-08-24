@@ -8,13 +8,13 @@
 .card{
     width: 720px;
     border: 1px solid gray;
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
     display: flex;
     flex-direction: row;
 }
 
-.card_left, .card_right{
-    border: 1px solid blue;
-}
 
 .card_left{
     display: flex;
@@ -30,6 +30,10 @@
 
 .card_left > p {
     color: gray;
+}
+
+.card_left > span {
+    font-weight: 400;
 }
 
 
