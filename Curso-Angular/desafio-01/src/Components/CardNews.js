@@ -16,12 +16,14 @@ class CardNews extends HTMLElement{
         const cardLeft = document.createElement("div");
         cardLeft.setAttribute('class', 'card_left');
 
+        // Criando elementos do card left
         const autor = document.createElement('span');
         autor.textContent = 'By ' + (this.getAttribute('autor') || 'Anonymous');
 
         const linkTitle = document.createElement('a');
         linkTitle.textContent = this.getAttribute("title");
-
+        linkTitle.href = this.getAttribute('link-url');
+ 
         const newsContent = document.createElement('p');
         newsContent.textContent = this.getAttribute('content');
 
@@ -34,7 +36,10 @@ class CardNews extends HTMLElement{
         const cardRight = document.createElement("div");
         cardRight.setAttribute('class', 'card_right');
 
+        //Criando elementos do card right
         const newsImage = document.createElement('img');
+        newsImage.src = this.getAttribute('photo') || "assets/default.jpg";
+        newsImage.alt = "Foto do vader";
         cardRight.appendChild(newsImage);
 
 
