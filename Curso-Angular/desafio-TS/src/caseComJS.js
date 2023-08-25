@@ -4,6 +4,5 @@
 
  ligar({
     nome: 'Steve Rogers',
-    vulgo: 'Capitão America', 
-    telefone: '11 31713388',
+    vulgo: 'Capitão America',
  });
