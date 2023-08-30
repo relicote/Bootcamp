@@ -19,17 +19,27 @@ implements OnInit, DoCheck, AfterContentChecked, AfterContentInit, AfterViewChec
     this.quantidade -= 1
   }
 
-  ngAfterViewInit(): void {
-    console.log('ngAfterViewIniti')
-  }
-  ngAfterViewChecked(): void {
-    console.log('ngAfterViewChecked')
-  }
+
+  // Checked -> Content ->
+
+  //Quando o primeiro conteudo é iniciado
   ngAfterContentInit(): void {
     console.log('ngAfterContentInit')
   }
+
+  //Depois da inicialização da view
+  ngAfterViewInit(): void {
+    console.log('ngAfterViewIniti')
+  }
+
+  //Após alguma alteração, verifica o conteudo
   ngAfterContentChecked(): void {
     console.log('ngAfterContentChecked')
+  }
+
+  // Depois da inicialização da view
+  ngAfterViewChecked(): void {
+    console.log('ngAfterViewChecked')
   }
 
   ngDoCheck(): void {
