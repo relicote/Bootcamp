@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'life-circle';
   isAliveCheckSampler:boolean = true;
+  disposeCheckSample(): void{
+    this.isAliveCheckSampler = false;
+  }
 }
