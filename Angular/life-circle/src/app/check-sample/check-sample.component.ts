@@ -1,4 +1,4 @@
-import { Component, OnInit, DoCheck, AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit } from '@angular/core';
+import { Component, OnInit, DoCheck, AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-check-sample',
@@ -6,11 +6,13 @@ import { Component, OnInit, DoCheck, AfterContentChecked, AfterContentInit, Afte
   styleUrls: ['./check-sample.component.css']
 })
 export default class CheckSampleComponent
-implements OnInit, DoCheck, AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit {
+implements OnInit, DoCheck, AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, OnDestroy {
 
   quantidade:number = 0
 
   constructor() { }
+
+
 
   adicionar(){
     this.quantidade += 1
@@ -48,6 +50,10 @@ implements OnInit, DoCheck, AfterContentChecked, AfterContentInit, AfterViewChec
 
   ngOnInit(): void {
     console.log('ngOnIniti')
+  }
+
+  ngOnDestroy(): void {
+    console.log('Adeus meu  amigo')
   }
 
 }
