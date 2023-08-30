@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CheckSampleComponent } from './check-sample.component';
+import CheckSampleComponent from './check-sample.component';
 
 describe('CheckSampleComponent', () => {
   let component: CheckSampleComponent;
