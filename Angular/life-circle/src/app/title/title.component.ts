@@ -10,7 +10,7 @@ export class TitleComponent implements OnInit{
   constructor() { }
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    console.log('Ola eu sou o nascimento do Title Component')
   }
 
 }
