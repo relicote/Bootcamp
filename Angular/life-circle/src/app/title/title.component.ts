@@ -18,6 +18,7 @@ export class TitleComponent implements OnInit, OnChanges{
   }
 
   ngOnInit(): void {
+    this.nome = this.nome + ' AI PAPAI'
    console.log(`OnInit ${this.nome}`)
   }
 
