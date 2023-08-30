@@ -10,15 +10,15 @@ export class TitleComponent implements OnInit, OnChanges{
   @Input() nome:string = ''
 
   constructor() {
-    console.log('Constructor')
+    console.log(`Constructor ${this.nome}`)
   }
 
   ngOnChanges(): void {
-      console.log('OnChange')
+      console.log(`OnChange ${this.nome}`)
   }
 
   ngOnInit(): void {
-   console.log('OnInit')
+   console.log(`OnInit ${this.nome}`)
   }
 
 }
