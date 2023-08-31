@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
   produtos:string[] = []
-  menuType: string = ''
+  menuType: string = 'user'
 
   constructor() {
     this.produtos = [
