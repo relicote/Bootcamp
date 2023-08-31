@@ -22,7 +22,7 @@ export class CardComponent implements OnInit {
   }
 
   adicionar(){
-    this.produtos.push('Gabriel')
+    this.produtos.pop()
   }
 
 }
