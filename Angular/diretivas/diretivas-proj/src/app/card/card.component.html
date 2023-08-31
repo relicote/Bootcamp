@@ -9,13 +9,15 @@
 </ul>
 
 <div [ngSwitch]="menuType">
-  <div *ngSwitchCase="'user'">\
+
+  <div *ngSwitchDefault>
     <ul>
       <li>Editar Perfil</li>
       <li>Adicionar Cartão</li>
     </ul>
 
   </div>
+
   <div *ngSwitchCase="'admin'">\
     <ul>
       <li>Editar Perfil</li>
@@ -23,6 +25,7 @@
       <li>Gerenciar Usuários</li>
     </ul>
   </div>
+
   <div *ngSwitchCase="'superuser'">\
     <ul>
       <li>Editar Perfil</li>
