@@ -1,3 +1,7 @@
 <h1>My App</h1>
 <p>card works!</p>
 <button>Olá Mundo</button>
+<ul>
+  <li *ngFor="let p of produtos">{{ p }}</li>
+  <button (click)="adicionar()">Adicionar</button>
+</ul>

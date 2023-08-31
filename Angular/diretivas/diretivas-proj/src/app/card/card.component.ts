@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  constructor() { }
+  produtos:string[] = []
+
+  constructor() {
+    this.produtos = [
+      "mouse",
+      'teclado',
+      'cabo',
+      'fonte'
+    ]
+  }
 
   ngOnInit(): void {
+  }
+
+  adicionar(){
+    this.produtos.push('Gabriel')
   }
 
 }
